@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/fragment_about_scene"
+    tools:context=".AboutFragment">
+
+    <TextView
+        android:id="@+id/textViewJoshua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am Joshua"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <TextView
+        android:id="@+id/textViewTnC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <TextView
+        android:id="@+id/textViewVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 69"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="716dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="397dp"
+        tools:src="@tools:sample/backgrounds/scenic" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
